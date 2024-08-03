@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISBD PHP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <div class="legend">
+                    <legend><b>Banco de dados de partidas</b></legend>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <label for="nomeTime">Nome do time</label>
+                    <input type="text" name="nomeTime" id="nomeTime" class="inputUser" required>
+                </div>
+
+                <br><br>    
+
+                <div class="inputBox">
+                    <label for="nomeModalidade">Modalidade jogada</label>
+                    <select name="nomeModalidade" id="nomeModalidade" class="inputUser" required>
+                        <option value="">Selecione a modalidade</option>
+                        <option value="futebol">Counter Strike</option>
+                        <option value="volei">Valorant</option>
+                        <option value="basquete">League of Legends</option>
+                        <option value="basquete">Dota</option>
+                    </select>
+                </div>
+
+                <br><br>
+
+                <div class="inputBox">
+                    <label for="nomeCamp">Campeonato</label>
+                    <input type="text" name="nomeCamp" id="nomeCamp" class="inputUser" required>
+                </div>
+
+                <br><br>
+
+                <div class="buttonBox">
+                    <div>
+                        <button type="submit" class="button">Cadastrar Time</button>
+                    </div>
+                    <div>
+                        <button type="button" class="button">Listar Todos os Times</button>
+                    </div>
+                    <div>
+                        <button type="button" class="button">Listar Times por Modalidade</button>
+                    </div>
+                    <div>
+                        <button type="button" class="button">Listar Times por Campeonato</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
